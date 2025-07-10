@@ -36,22 +36,22 @@ const about = () => {
 
   return (
     <>
-      {/* About Section */}
+      {/* about Section */}
       <Information />
 
-      {/* Experience Section */}
+      {/* experience Section */}
       <Experiance />
 
-      {/* Projects Section */}
+      {/* projects Section */}
       <Projects />
 
-      {/* Education Section */}
+      {/* education Section */}
       <Education />
 
-      {/* Resume Link */}
+      {/* resume Link */}
       <Resume />
 
-      {/* Navigation Back */}
+      {/* navigation Back */}
       <div className="lg:py-24 px-4">
         <a className="group mb-2 inline-flex items-center font-semibold leading-tight text-teal-300" href="/">
           <svg

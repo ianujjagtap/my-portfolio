@@ -1,5 +1,3 @@
-import React from 'react'
-
 export const Experiance = () => {
     return (
         <section id="experience" className="mb-16 scroll-mt-16">
