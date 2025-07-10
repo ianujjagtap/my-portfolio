@@ -4,14 +4,11 @@ import About from './about';
 
 const footer = () => {
     return (
+        <div className="lg:w-1/2 py-12 px-4 sm:px-8 lg:px-16 mr-0 lg:mr-8">
+            <About />
+        </div>
+    );
+};
 
-        <>
-            <div className='flex  justify-end align-middle w-1/2 mt-24 mr-[10em]'>
-                <About />
-            </div>
-            
-        </>
-    )
-}
 
 export default footer
