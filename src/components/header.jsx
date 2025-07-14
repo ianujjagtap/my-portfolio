@@ -1,5 +1,5 @@
-export const Header = () => {
-    // Social links data from resume
+export const Header = ({ currentSection, setCurrentSection }) => {
+    // socials links
     const socials = [
         { name: "LinkedIn", url: "https://linkedin.com/in/anuj-jagtap-66a23429a" },
         { name: "GitHub", url: "https://github.com/ianujjagtap" },
@@ -13,7 +13,7 @@ export const Header = () => {
                     JAGTAP ANUJ
                 </h2>
                 <h5 className="text-lg sm:text-xl font-medium tracking-tight text-gray-300">
-                    React & Next.js Developer
+                    Frontend Developer
                 </h5>
                 <p className="text-base sm:text-lg text-gray-400 leading-relaxed max-w-md">
                     I craft scalable, performant web applications with modern frontend and backend technologies, delivering seamless user experiences.

@@ -6,7 +6,7 @@ export const Resume = () => {
                 target="_blank"
                 href="/CV-Anuj.pdf"
                 rel="noreferrer"
-                download            >
+                download>
                 <span>
                     <span className="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none">
                         View Full
