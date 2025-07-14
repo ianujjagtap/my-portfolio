@@ -1,4 +1,4 @@
-const HeroIcon = ({
+export const HeroIcon = ({
 	height = "48px",
 	width = "48px",
 	className = "",

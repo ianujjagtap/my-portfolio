@@ -1,4 +1,4 @@
-const FlashIcon = ({
+export const FlashIcon = ({
 	height = "24px",
 	width = "24px",
 	className = "",
@@ -21,5 +21,3 @@ const FlashIcon = ({
 		</svg>
 	);
 };
-
-export default FlashIcon;

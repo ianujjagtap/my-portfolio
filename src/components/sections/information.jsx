@@ -1,9 +1,9 @@
-import HeaderIcon from "../svgs/ring-";
+import { HeaderIcon } from "../svgs/ring-";
 
 export const Information = () => {
 	return (
-		<section id="about" className=" h-screen flex items-center pb-16">
-			<div className="px-4 py-5 backdrop-blur">
+		<section id="about" className=" sm:h-screen flex items-center pb-16">
+			<div>
 				<h2 className="text-2xl sm:text-3xl font-semibold hover:text-teal-500 cursor-cell text-slate-200 mb-4 flex items-center gap-4">
 					<HeaderIcon
 						height="30"
@@ -17,7 +17,7 @@ export const Information = () => {
 						Hey
 						<span className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300">
 							{" "}
-							Good afternoon 🌞{" "}
+							🌞{" "}
 						</span>
 						I'm Anuj Jagtap, a Frontend Developer with over
 						<span className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300">

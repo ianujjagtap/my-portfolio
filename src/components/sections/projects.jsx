@@ -1,6 +1,8 @@
+import { ProjectIcon } from "../svgs/project-icon";
+
 const projects = [
 	{
-		year: 2024,
+		year: "2024 - 25 ",
 		name: "Echo",
 		madeAt: "Personal Project",
 		tech: [
@@ -25,7 +27,7 @@ const projects = [
 		links: [{ name: "Live", url: "https://thirty-six.vercel.app" }],
 	},
 	{
-		year: 2024,
+		year: 2025,
 		name: "Route LLM",
 		madeAt: "Personal Project",
 		tech: [
@@ -43,15 +45,19 @@ const projects = [
 ];
 export const Projects = () => {
 	return (
-		<section id="projects" className="mb-16 scroll-mt-16">
-			<div className="sticky top-0 z-20 bg-slate-900/75 px-4 py-5 backdrop-blur">
-				<h2 className="text-2xl sm:text-3xl font-semibold text-slate-200">
-					Projects
+		<section id="projects" className="mb-36 scroll-mt-16">
+			<div >
+				<h2 className="text-2xl sm:text-3xl font-semibold text-slate-200 flex items-center gap-4">
+					<ProjectIcon
+						height="50"
+						width="50"
+						className="text-slate-400 hover:text-teal-500"
+					/>{" "}	Projects
 				</h2>
 			</div>
-			<div className="mt-4 px-4">
+			<div className="mt-4 px-4 max-sm:overflow-scroll">
 				<table className="w-full border-collapse text-left">
-					<thead className="sticky top-14 z-10 border-b border-slate-300/10 bg-slate-900/75 backdrop-blur">
+					<thead className="border-b border-slate-300/10">
 						<tr>
 							<th className="py-4 pr-8 text-sm font-semibold text-slate-200">
 								Year
@@ -65,7 +71,7 @@ export const Projects = () => {
 							<th className="hidden py-4 pr-8 text-sm font-semibold text-slate-200 lg:table-cell">
 								Built with
 							</th>
-							<th className="hidden py-4 pr-8 text-sm font-semibold text-slate-200 sm:table-cell">
+							<th className=" py-4 pr-8 text-sm font-semibold text-slate-200 sm:table-cell">
 								Links
 							</th>
 						</tr>
@@ -77,12 +83,12 @@ export const Projects = () => {
 								className="border-b border-slate-300/10 last:border-none"
 							>
 								<td className="py-4 pr-4 align-top text-sm">
-									<div className="translate-y-px">{project.year}</div>
+									<div className="translate-y-px whitespace-nowrap">{project.year}</div>
 								</td>
 								<td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200">
 									<div>
 										<div className="sm:hidden flex justify-between">
-											<span className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 sm:hidden group/link text-base">
+											<span className="inline-flex whitespace-nowrap items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 sm:hidden group/link text-base">
 												<span>{project.name}</span>
 											</span>
 										</div>
@@ -98,14 +104,14 @@ export const Projects = () => {
 									<ul className="flex -translate-y-1.5 flex-wrap">
 										{project.tech.map((tech) => (
 											<li key={tech} className="my-1 mr-1.5">
-												<div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+												<div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 whitespace-nowrap">
 													{tech}
 												</div>
 											</li>
 										))}
 									</ul>
 								</td>
-								<td className="hidden py-4 align-top sm:table-cell">
+								<td className="py-4 align-top">
 									<ul className="translate-y-1 flex justify-start items-center space-x-4">
 										{project.links.map((link) => (
 											<li key={link.name} className="mb-1 items-center">

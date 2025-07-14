@@ -1,4 +1,4 @@
-const HeaderIcon = ({ height = "100px", width = "100px", ...props }) => {
+export const HeaderIcon = ({ height = "100px", width = "100px", ...props }) => {
 	return (
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -15,5 +15,3 @@ const HeaderIcon = ({ height = "100px", width = "100px", ...props }) => {
 		</svg>
 	);
 };
-
-export default HeaderIcon;

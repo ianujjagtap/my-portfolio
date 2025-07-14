@@ -1,9 +1,15 @@
+import { ExperienceIcon } from "../svgs/experiance";
+
 export const Experiance = () => {
 	return (
 		<section id="experience" className="mb-16 scroll-mt-16">
-			<div className="sticky top-0 z-20 bg-slate-900/75 px-4 py-5 backdrop-blur">
-				<h2 className="text-2xl sm:text-3xl font-semibold text-slate-200">
-					Experience
+			<div>
+				<h2 className="text-2xl sm:text-3xl pb-4 font-semibold text-slate-200 flex items-center gap-4">
+					<ExperienceIcon
+						height="30"
+						width="30"
+						className="text-slate-400 hover:text-teal-500"
+					/>{" "}	Experience
 				</h2>
 			</div>
 			<div className="mt-4 px-4">

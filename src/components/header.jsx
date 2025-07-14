@@ -1,4 +1,4 @@
-import FlashIcon from "./svgs/flash";
+import { FlashIcon } from "./svgs/flash";
 
 export const Header = () => {
 	// socials links

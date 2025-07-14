@@ -1,4 +1,4 @@
-const EducationIcon = ({
+export const EducationIcon = ({
 	height = "24px",
 	width = "24px",
 	className = "",
@@ -36,4 +36,3 @@ const EducationIcon = ({
 	);
 };
 
-export default EducationIcon;
