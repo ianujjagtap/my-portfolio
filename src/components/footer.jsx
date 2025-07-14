@@ -1,6 +1,4 @@
-import React from 'react';
-import About from './about';
-
+import About from "./about";
 
 export const Footer = () => {
     return (
@@ -9,4 +7,3 @@ export const Footer = () => {
         </div>
     );
 };
-
