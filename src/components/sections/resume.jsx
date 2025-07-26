@@ -4,7 +4,7 @@ export const Resume = () => {
 			<a
 				className="inline-flex items-center leading-tight font-medium text-slate-200 group"
 				target="_blank"
-				href="/CV-Anuj.pdf"
+				href="/Anuj-Resume-V4.pdf"
 				rel="noreferrer"
 				download
 			>
