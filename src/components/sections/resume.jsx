@@ -3,10 +3,9 @@ export const Resume = () => {
 		<div className="mt-12 px-4">
 			<a
 				className="inline-flex items-center leading-tight font-medium text-slate-200 group"
-				target="_blank"
-				href="/Anuj-Resume-V4.pdf"
+				href="/assets/Anuj-Resume.pdf"
 				rel="noreferrer"
-				download
+				download="Anuj-Resume.pdf"
 			>
 				<span>
 					<span className="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none">
