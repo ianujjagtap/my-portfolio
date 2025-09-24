@@ -75,24 +75,9 @@ export const Experiance = () => {
 										<div className="text-slate-500">Surat • Gujarat</div>
 									</div>
 								</div>
-								<ul className="mt-2 text-sm leading-normal text-slate-400 list-disc pl-5 space-y-1">
-									<li>
-										Architected a scalable e-commerce platform for 10,000+
-										users, optimizing SEO to 85-90 scores and reducing load
-										times by 30%.
-									</li>
-									<li>
-										Built production-grade React and Next.js admin panels with
-										robust authentication and dynamic data handling.
-									</li>
-									<li>
-										Leveraged GitHub CI/CD for maintainable codebases, earning
-										"Employee of the Year 2024."
-									</li>
-								</ul>
 							</div>
 							<div className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">
-								August 2024 — July 2025
+								September 2025 — Present
 							</div>
 						</div>
 					</li>
