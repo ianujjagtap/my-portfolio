@@ -19,7 +19,7 @@ export const Information = () => {
 							{" "}
 							🌞{" "}
 						</span>
-						I'm Anuj Jagtap, a Frontend Developer with over
+						I'm Anuj Jagtap, a Fullstack Developer with over
 						<span className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300">
 							{" "}
 							1+ years{" "}
