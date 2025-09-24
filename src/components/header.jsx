@@ -13,10 +13,10 @@ export const Header = () => {
 			<header className="flex flex-col gap-6">
 				<h2 className="text-4xl sm:text-5xl font-bold  text-white flex gap-4 items-center">
 					<FlashIcon height="48px" width="48px" className="text-slate-400" />{" "}
-					Jagtap Anuj
+					JAGTAP ANUJ
 				</h2>
 				<h5 className="text-lg sm:text-xl font-medium tracking-tight text-gray-300">
-					Frontend Developer
+					Fullstack Developer
 				</h5>
 				<p className="text-base sm:text-lg text-gray-400 leading-relaxed max-w-md">
 					I craft scalable, performant web applications with modern frontend and
