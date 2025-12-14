@@ -56,7 +56,6 @@ export const Experiance = () => {
           </li>
         </ol>
       </div>
-
       {/* Second Experience */}
       <div className="mt-4 px-4">
         <ol className="group/list">
