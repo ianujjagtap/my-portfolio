@@ -34,13 +34,14 @@ const techStack = [
 export const TechStack = () => {
 	return (
 		<div className="pb-16">
-			<div >
+			<div>
 				<h2 className="text-2xl sm:text-3xl pb-8 font-semibold text-slate-200 flex items-center gap-4">
 					<TechStackIcon
 						height="50"
 						width="50"
 						className="text-slate-400 hover:text-teal-500"
-					/>{" "}	Tech Stack
+					/>{" "}
+					Tech Stack
 				</h2>
 			</div>
 			<ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2">

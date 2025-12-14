@@ -10,7 +10,8 @@ export const Education = () => {
 							height="30"
 							width="30"
 							className="text-slate-400 hover:text-teal-500"
-						/> Education
+						/>{" "}
+						Education
 					</h2>
 				</div>
 				<div className="mt-4 px-4">
@@ -20,7 +21,9 @@ export const Education = () => {
 							<div className="font-medium leading-snug text-slate-200">
 								<div>
 									<div className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base">
-										<span>Bachelor of Science · Savitibai Phule University</span>
+										<span>
+											Bachelor of Science · Savitibai Phule University
+										</span>
 									</div>
 								</div>
 								<div>

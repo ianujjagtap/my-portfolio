@@ -9,7 +9,8 @@ export const Experiance = () => {
 						height="30"
 						width="30"
 						className="text-slate-400 hover:text-teal-500"
-					/>{" "}	Experience
+					/>{" "}
+					Experience
 				</h2>
 			</div>
 			{/* First Experience */}
@@ -66,15 +67,31 @@ export const Experiance = () => {
 									<div>
 										<div className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base">
 											<span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
-											<span>
-												Fullstack Developer · Knovator Technologies
-											</span>
+											<span>Fullstack Developer · Knovator Technologies</span>
 										</div>
 									</div>
 									<div>
 										<div className="text-slate-500">Surat • Gujarat</div>
 									</div>
 								</div>
+								<ul className="mt-2 text-sm leading-normal text-slate-400 list-disc pl-5 space-y-1">
+									<li>
+										Worked on full-stack restaurant web applications,
+										contributing to both frontend and backend development.
+										Handled integrations such as payments, authentication, and
+										ordering features while fixing bugs and improving
+										performance.
+									</li>
+									<li>
+										Collaborated with the team to add features, resolve issues,
+										and support successful production releases for web and
+										mobile apps.
+									</li>
+									<li>
+										Worked with technologies and platforms including Directus,
+										Olo Pay, Incentivio, Toast, and related tools.
+									</li>
+								</ul>
 							</div>
 							<div className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">
 								September 2025 — Present

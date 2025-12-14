@@ -4,13 +4,14 @@ import { ProjectIcon } from "../svgs/project-icon";
 export const Projects = () => {
 	return (
 		<section id="projects" className="mb-36 scroll-mt-16">
-			<div >
+			<div>
 				<h2 className="text-2xl sm:text-3xl font-semibold text-slate-200 flex items-center gap-4">
 					<ProjectIcon
 						height="50"
 						width="50"
 						className="text-slate-400 hover:text-teal-500"
-					/>{" "}	Projects
+					/>{" "}
+					Projects
 				</h2>
 			</div>
 			<div className="mt-4 px-4 max-sm:overflow-scroll">
@@ -41,7 +42,9 @@ export const Projects = () => {
 								className="border-b border-slate-300/10 last:border-none"
 							>
 								<td className="py-4 pr-4 align-top text-sm">
-									<div className="translate-y-px whitespace-nowrap">{project.year}</div>
+									<div className="translate-y-px whitespace-nowrap">
+										{project.year}
+									</div>
 								</td>
 								<td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200">
 									<div>
