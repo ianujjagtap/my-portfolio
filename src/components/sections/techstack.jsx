@@ -1,4 +1,10 @@
 import { TechStackIcon } from "../svgs/techstack";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
+import { useRef } from "react";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const techStack = [
 	"C",
@@ -35,8 +41,25 @@ const techStack = [
 	"SEO Optimization",
 ];
 export const TechStack = () => {
+    const containerRef = useRef(null);
+
+    useGSAP(() => {
+        gsap.from(".tech-item", {
+            scrollTrigger: {
+                trigger: containerRef.current,
+                start: "top 80%",
+                toggleActions: "play none none reverse",
+            },
+            y: 30,
+            opacity: 0,
+            duration: 0.5,
+            stagger: 0.05,
+            ease: "back.out(1.7)",
+        });
+    }, { scope: containerRef });
+
 	return (
-		<div className="pb-16">
+		<div ref={containerRef} className="pb-16">
 			<div>
 				<h2 className="text-2xl sm:text-3xl pb-8 font-semibold text-slate-200 flex items-center gap-4">
 					<TechStackIcon
@@ -51,7 +74,7 @@ export const TechStack = () => {
 				{techStack.map((tech) => (
 					<li
 						key={tech}
-						className="flex items-center justify-center rounded-full bg-teal-400/10 py-1 text-xs font-medium leading-5 text-teal-300"
+						className="tech-item flex items-center justify-center rounded-full bg-teal-400/10 py-1 text-xs font-medium leading-5 text-teal-300"
 					>
 						{tech}
 					</li>

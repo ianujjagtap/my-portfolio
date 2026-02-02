@@ -1,8 +1,32 @@
 import { HeaderIcon } from "../svgs/ring-";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
+import { useRef } from "react";
+
+gsap.registerPlugin(ScrollTrigger);
 
 export const Information = () => {
+    const containerRef = useRef(null);
+
+    useGSAP(() => {
+        gsap.from(".about-text p", {
+            scrollTrigger: {
+                trigger: containerRef.current,
+                start: "top 80%",
+                toggleActions: "play none none reverse",
+            },
+            y: 30,
+            opacity: 0,
+            duration: 1,
+            stagger: 0.2,
+            delay: 2.5, // sync with preloader
+            ease: "power2.out",
+        });
+    }, { scope: containerRef });
+
 	return (
-		<section id="about" className=" sm:h-screen flex items-center pb-16">
+		<section ref={containerRef} id="about" className=" sm:h-screen flex items-center pb-16">
 			<div>
 				<h2 className="text-2xl sm:text-3xl font-semibold hover:text-teal-500 cursor-cell text-slate-200 mb-4 flex items-center gap-4">
 					<HeaderIcon
@@ -12,7 +36,7 @@ export const Information = () => {
 					/>{" "}
 					About
 				</h2>
-				<div className="text-slate-400">
+				<div className="about-text text-slate-400">
 					<p className="mb-4">
 						Hey
 						<span className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300">

@@ -1,8 +1,35 @@
 import { ExperienceIcon } from "../svgs/experiance";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
+import { useRef } from "react";
+
+gsap.registerPlugin(ScrollTrigger);
 
 export const Experiance = () => {
+  const containerRef = useRef(null);
+
+  useGSAP(() => {
+    const cards = gsap.utils.toArray(".experience-card");
+    
+    cards.forEach((card, index) => {
+      gsap.from(card, {
+        scrollTrigger: {
+          trigger: card,
+          start: "top 85%",
+          toggleActions: "play none none reverse",
+        },
+        y: 50,
+        opacity: 0,
+        duration: 0.8,
+        delay: index * 0.2, // stagger effect based on index
+        ease: "power3.out",
+      });
+    });
+  }, { scope: containerRef });
+
   return (
-    <section id="experience" className="mb-16 scroll-mt-16">
+    <section ref={containerRef} id="experience" className="mb-16 scroll-mt-16">
       <div>
         <h2 className="text-2xl sm:text-3xl pb-4 font-semibold text-slate-200 flex items-center gap-4">
           <ExperienceIcon
@@ -13,8 +40,8 @@ export const Experiance = () => {
           Experience
         </h2>
       </div>
-      {/* First Experience */}
-      <div className="mt-4 px-4">
+      {/* first experience */}
+      <div className="mt-4 px-4 experience-card">
         <ol className="group/list">
           <li className="mb-12">
             <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50 ">
@@ -55,8 +82,8 @@ export const Experiance = () => {
           </li>
         </ol>
       </div>
-      {/* Second Experience */}
-      <div className="mt-4 px-4">
+      {/* second experience */}
+      <div className="mt-4 px-4 experience-card">
         <ol className="group/list">
           <li className="mb-12">
             <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50 ">
