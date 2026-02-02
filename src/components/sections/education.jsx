@@ -22,7 +22,7 @@ export const Education = () => {
 								<div>
 									<div className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base">
 										<span>
-											Bachelor of Science · Savitibai Phule University
+											Bachelor of Computer Science · Savitibai Phule University
 										</span>
 									</div>
 								</div>
