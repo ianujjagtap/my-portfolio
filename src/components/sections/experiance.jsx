@@ -25,32 +25,31 @@ export const Experiance = () => {
                     <div className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base">
                       <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                       <span>
-                        React & Next.js Developer · Androbuddy Technologies
+                        Fullstack Developer · Knovator Technologies Pvt Ltd
                       </span>
                     </div>
                   </div>
                   <div>
-                    <div className="text-slate-500">Pune • Maharashtra</div>
+                    <div className="text-slate-500">Surat, Gujarat</div>
                   </div>
                 </div>
                 <ul className="mt-2 text-sm leading-normal text-slate-400 list-disc pl-5 space-y-1">
                   <li>
-                    Architected a scalable e-commerce platform for 10,000+
-                    users, optimizing SEO to 85-90 scores and reducing load
-                    times by 30%.
+                    Worked on full-stack restaurant web applications, contributing to both frontend and backend development.
                   </li>
                   <li>
-                    Built production-grade React and Next.js admin panels with
-                    robust authentication and dynamic data handling.
+                    Handled integrations such as payments, authentication, and ordering features while fixing bugs and improving performance.
                   </li>
                   <li>
-                    Leveraged GitHub CI/CD for maintainable codebases, earning
-                    "Employee of the Year 2024."
+                    Collaborated with the team to add features, resolve issues, and support successful production releases for web and mobile apps.
+                  </li>
+                  <li>
+                    Worked with technologies and platforms including Directus, Olo Pay, Incentivio, Toast, and related tools.
                   </li>
                 </ul>
               </div>
               <div className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">
-                August 2024 — July 2025
+                September 2025 – Present
               </div>
             </div>
           </li>
@@ -67,34 +66,27 @@ export const Experiance = () => {
                   <div>
                     <div className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base">
                       <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
-                      <span>Fullstack Developer · Knovator Technologies</span>
+                      <span>Frontend Developer · Androbuddy Technologies</span>
                     </div>
                   </div>
                   <div>
-                    <div className="text-slate-500">Surat • Gujarat</div>
+                    <div className="text-slate-500">Narhe, Pune</div>
                   </div>
                 </div>
                 <ul className="mt-2 text-sm leading-normal text-slate-400 list-disc pl-5 space-y-1">
                   <li>
-                    Worked on full-stack restaurant web applications,
-                    contributing to both frontend and backend development.
-                    Handled integrations such as payments, authentication, and
-                    ordering features while fixing bugs and improving
-                    performance.
+                    Developed scalable E-commerce platform with React, featuring dynamic page creation, theme management, and SEO optimizations achieving 85-90 scores, reducing load times by 30% for 10,000+ monthly users.
                   </li>
                   <li>
-                    Collaborated with the team to add features, resolve issues,
-                    and support successful production releases for web and
-                    mobile apps.
+                    Built React admin panel with Redux and Tanstack Query, enabling efficient admin workflows for concurrent operations.
                   </li>
                   <li>
-                    Worked with technologies and platforms including Directus,
-                    Olo Pay, Incentivio, Toast, and related tools.
+                    Engineered Next.js admin panel for Flutter community app, supporting large-scale CSV uploads (4K-10K rows) and handling 30K-40K table rows with pagination and search.
                   </li>
                 </ul>
               </div>
               <div className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">
-                September 2025 — Present
+                August 2024 – July 2025
               </div>
             </div>
           </li>
