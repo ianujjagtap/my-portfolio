@@ -19,12 +19,12 @@ export const Information = () => {
 							{" "}
 							🌞{" "}
 						</span>
-						I'm Anuj Jagtap, a Fullstack Developer with over
+						I&apos;m Anuj Jagtap, a Fullstack Developer with over
 						<span className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300">
 							{" "}
-							1+ years{" "}
+							2+ years{" "}
 						</span>
-						of experience at Androbuddy Technologies, building scalable
+						of experience in Fullstack Development. I build scalable
 						e-commerce platforms and admin panels. I specialize in creating
 						responsive, SEO-optimized web applications using modern
 						<span className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300">
@@ -80,13 +80,16 @@ export const Information = () => {
 							success.
 						</span>
 					</p>
+					<p className="mb-6 italic text-slate-500 border-l-2 border-teal-500/50 pl-4 py-2">
+						&quot;Perceive that which cannot be seen.&quot; — Miyamoto Musashi
+					</p>
 					<p>
-						If you're looking for a dedicated professional who can bring your
+						If you&apos;re looking for a dedicated professional who can bring your
 						<span className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300">
 							{" "}
 							ideas{" "}
 						</span>
-						to fruition, I would be thrilled to work with you. Let's discuss
+						to fruition, I would be thrilled to work with you. Let&apos;s discuss
 						your project and create something extraordinary
 						<span className="group/korok inline-flex lg:font-medium lg:text-slate-200 pl-2">
 							<span className="sr-only"> Together </span>
