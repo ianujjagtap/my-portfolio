@@ -1,16 +1,18 @@
 export const projects = [
 	{
-		year: "2024 - 25 ",
+		year: "2024 - 25",
 		name: "Echo",
 		madeAt: "Personal Project",
 		tech: [
 			"Vite",
 			"React",
 			"Tailwind CSS",
+			"JWT",
 			"Node.js",
 			"Express",
 			"MongoDB",
 			"Framer Motion",
+			"Marked.js",
 		],
 		links: [
 			{ name: "Live", url: "https://echo-the-chatbot.vercel.app" },
@@ -28,6 +30,7 @@ export const projects = [
 			"Prisma",
 			"PostgreSQL",
 			"Hono.js",
+			"Tailwind CSS",
 		],
 		links: [{ name: "Live", url: "https://route-llm.vercel.app/" }],
 	},
@@ -36,6 +39,9 @@ export const projects = [
 		name: "Thirty Six Studio",
 		madeAt: "Personal Project",
 		tech: ["React", "Vite", "Tailwind CSS", "GSAP"],
-		links: [{ name: "Live", url: "https://thirty-six.vercel.app" }],
+		links: [
+			{ name: "Live", url: "https://thirty-six.vercel.app" },
+			{ name: "Github", url: "https://github.com/ianujjagtap/thirty-six-studio" },
+		],
 	},
 ];
