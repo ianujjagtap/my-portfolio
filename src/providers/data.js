@@ -35,6 +35,19 @@ export const projects = [
 		links: [{ name: "Live", url: "https://route-llm.vercel.app/" }],
 	},
 	{
+		year: 2025,
+		name: "ScribeAI",
+		madeAt: "Personal Project",
+		tech: [
+			"Next.js",
+			"TypeScript",
+			"Gemini API",
+			"GSAP",
+			"Tailwind CSS",
+		],
+		links: [{ name: "Live", url: "https://scrib-ai-orb.vercel.app/" }],
+	},
+	{
 		year: 2024,
 		name: "Thirty Six Studio",
 		madeAt: "Personal Project",

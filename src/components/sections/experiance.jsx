@@ -97,7 +97,7 @@ export const Experiance = () => {
                     </div>
                   </div>
                   <div>
-                    <div className="text-slate-500">Narhe, Pune</div>
+                    <div className="text-slate-500">Pune, Maharashtra</div>
                   </div>
                 </div>
                 <ul className="mt-2 text-sm leading-normal text-slate-400 list-disc pl-5 space-y-1">
